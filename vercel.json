@@ -1,0 +1,10 @@
+{
+  "crons": [
+    { "path": "/api/cron/ingest-gdelt", "schedule": "*/15 * * * *" },
+    { "path": "/api/cron/ingest-news", "schedule": "*/30 * * * *" },
+    { "path": "/api/cron/ingest-flights", "schedule": "*/5 * * * *" },
+    { "path": "/api/cron/ingest-government", "schedule": "*/30 * * * *" },
+    { "path": "/api/cron/analyze-batch", "schedule": "*/15 * * * *" },
+    { "path": "/api/cron/generate-brief", "schedule": "0 6 * * *" }
+  ]
+}
